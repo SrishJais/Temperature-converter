@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+body{
+    height: 100vh;
+}
+main{    
+    height: 100%;
+    
+} 
+#heading{
+   font-weight: bolder;
+}
+label{
+    font-size: larger;
+    font-weight: bolder;
+}
+.form-control{
+    font-weight: bold;
+    border: 5px solid black;
+}
+.form-control:focus{
+  
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
